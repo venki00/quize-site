@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quize App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="quize-box">
+          <div class="quize">
+            <h1>JavaScript Quize App</h1>
+            <div class="quize-header">
+              <p id="progress">Question x of y</p>
+              <p id="count-down">60 seconds</p>
+            </div>
+            <p id="question"></p>
+            <div class="buttons">
+              <button class="btn">A. <span id="choice0"></span></button>
+              <button class="btn">B. <span id="choice1"></span></button>
+              <button class="btn">C. <span id="choice2"></span></button>
+              <button class="btn">D. <span id="choice3"></span></button>
+            </div>
+            <hr />
+            <footer>
+              <p>Fullstack developer</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </header>
+      <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap');
+
+:root{
+    --white: #fff;
+    --color-secondary: #db6400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: var(--color-secondary);
+    font-family: 'open Sans', sans-serif;
+}
+p{ 
+    font-size: 1.6rem;  
+    line-height: 1.5;
+}
+
+h1{
+    background-color: var(--color-secondary);
+    font-size: 4.5rem;
+    border-radius: 2px;
+    text-align: center;
+    padding:0 auto ;
+    margin-bottom: 1.6rem;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quize-box{
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(228, 224, 227);
+    padding: 10px 50px 50px 50px;
+    border: 3px solid rgb(253, 212, 28) ;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.quize-header{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quize-header #progress{
+    color: blue;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.quize-header #count-down{
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: bisque;
+    padding: 5px;
+    margin: 1px;
+    color: blueviolet;
+    border-radius: 2px;
+
+}
+
+.quize #question{
+font-size: 1.8rem;
+
+}
+
+.buttons{
+    margin: 1.5rem 0 4rem 0; 
+}
+.btn{
+    text-align: left;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 1px solid rgb(253, 212, 28) ;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 1rem;
+    outline:none;
+}
